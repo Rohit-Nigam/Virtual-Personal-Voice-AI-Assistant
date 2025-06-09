@@ -32,9 +32,9 @@ A modular, multimodal AI assistant built in Python that combines voice interacti
 * Microsoft Edge (for TTS)
 * API keys:
 
-  * REPLICATE\_API\_KEY
-  * SERPAPI\_KEY
-  * GROQ / GEMINI API Keys (optional)
+  * Groq\_API\_KEY
+  * HuggingFace\_KEY
+  * Choere/-KEY
 
 ## 🚀 Installation
 
@@ -61,9 +61,13 @@ pip install -r requirements.txt
 4. Add your API keys in config.py:
 
 ```python
-REPLICATE_API_KEY = "your_key"
-SERPAPI_KEY = "your_key"
-GROQ_API_KEY = "your_key"
+ChoereAPIKey = " YOUR_API_KEY "
+Username = " USER_NAME "
+Assistantname = Demon
+GroqAPIKey = " YOUR_API_KEY "
+InputLanguage = en
+AssistantVoice = en-CA-ClaraNeural
+HuggingFaceAPIKey = " YOUR_API_KEY "
 ```
 
 5. Launch the application:
