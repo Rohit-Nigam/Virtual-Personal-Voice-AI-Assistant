@@ -58,7 +58,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Add your API keys in config.py:
+4. Add your API keys in .env file:
 
 ```python
 ChoereAPIKey = " YOUR_API_KEY "
