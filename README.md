@@ -55,7 +55,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 3. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 4. Add your API keys in .env file:
